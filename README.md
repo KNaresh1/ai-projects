@@ -5,3 +5,9 @@ Key projects:
 - Deep Learning: Air quality monitoring, flower classification
 - ML Experiments: Statistical analysis, sklearn models
 - AWS AI: SageMaker, Rekognition, Comprehend implementations
+
+
+### ENV setup:
+```
+conda env create -f environment.yaml
+```

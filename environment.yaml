@@ -1,0 +1,36 @@
+name: ai-projects-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - botocore
+  - boto3
+  - certifi
+  - cmake
+  - fsspec
+  - gdown
+  - ipywidgets
+  - matplotlib
+  - neurokit2
+  - nltk
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - datetime
+    - sagemaker
+    - torch
+    - torchvision
+    - torchaudio
+  - pygments
+  - python==3.11
+  - requests
+  - seaborn
+  - scikit-learn
+  - scipy
+  - s3fs
+  - transformers==4.36.0
+  - wfdb
+  - wordcloud
+  - yfinance
