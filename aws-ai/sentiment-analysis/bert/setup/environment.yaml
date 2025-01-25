@@ -1,0 +1,26 @@
+name: drug-review-sentiment-analysis-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.10
+  - boto3
+  - pandas
+  - scikit-learn
+  - s3fs
+  - cmake
+  - transformers==4.36.0
+  - ipywidgets
+  - matplotlib
+  - gdown
+  - seaborn
+  - nltk
+  - wordcloud
+  - pip
+  - pip:
+      - sagemaker
+      - datetime
+      - torch
+      - torchvision
+      - torchaudio

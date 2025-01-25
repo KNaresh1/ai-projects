@@ -1,0 +1,18 @@
+name: stock-price-prediction-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.11
+  - boto3
+  - yfinance
+  - pandas
+  - scikit-learn
+  - fsspec
+  - s3fs
+  - cmake
+  - pip
+  - pip:
+      - sagemaker
+      - datetime
