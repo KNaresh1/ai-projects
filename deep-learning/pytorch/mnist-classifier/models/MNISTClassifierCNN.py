@@ -65,4 +65,4 @@ class MNISTClassifierCNN(nn.Module):
         X = F.relu(self.fc2(X))
         X = self.fc3(X)
 
-        return log_softmax(X, dim=1)
+        return F.log_softmax(X, dim=1)
