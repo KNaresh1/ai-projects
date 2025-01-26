@@ -171,6 +171,8 @@ cython_debug/
 .pypirc
 
 # Data files
+*/data/*
+*/datasets/*
 *.tsv
 *.csv
 *.h5
