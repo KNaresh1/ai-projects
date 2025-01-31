@@ -1,6 +1,5 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.sparse import log_softmax
 
 """
     Convolutional Neural Network for MNIST Classification
